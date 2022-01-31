@@ -1,0 +1,122 @@
+.row-map
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height:auto;
+}
+.box
+{
+    height:25px;
+    width: 25px;
+    background-color: #111;
+}
+/*GENERALS*/
+.wall_1
+{
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+
+.wall_2
+{
+    border-left: 1px solid blue;
+    border-top: 1px solid blue;
+}
+
+.wall_3
+{
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+}
+
+.wall_4
+{
+    border-top: 1px solid blue;
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
+}
+
+.wall_5
+{
+    border-bottom: 1px solid blue;
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
+}
+
+.wall_6
+{
+    border-top: 1px solid blue;
+}
+
+.wall_7
+{
+    border-bottom: 1px solid blue;
+    border-right: 1px solid blue;
+    border-top: 1px solid blue;
+}
+
+.wall_8
+{
+    border-bottom: 1px solid blue;
+    border-left: 1px solid blue;
+    border-top: 1px solid blue;
+}
+.wall_9
+{
+    border-left: 1px solid blue;
+}
+.wall_10
+{
+    border-right: 1px solid blue;
+}
+.wall_11
+{
+    border-top: 1px solid blue;
+}
+.wall_12
+{
+    border-bottom: 1px solid blue;
+}
+.wall_13
+{
+    border-left: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+.wall_14
+{
+    border-right: 1px solid blue;
+    border-top: 1px solid blue;
+}
+.wall_15
+{
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+.non-wall
+{
+    height:25px;
+    width:25px;
+    background-color: #111;
+}
+/*WALLS*/
+.move-area
+{
+    margin:0;
+}
+.point
+{
+    background-image:url(PNG/Balls/Ball.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.SpiritSlayerBall
+{
+    background-image:url(PNG/Balls/Ball.svg);
+    background-position: center;
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+/*MOVING AREAS*/

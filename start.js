@@ -1,0 +1,46 @@
+function NewGame()
+{
+    pacman.posX = 9;
+    pacman.posY = 18;
+    pacman.score = 0;
+    pointsVegan = 0;
+    pacman.facingDir = null;
+    ButtonClass.style.display = "none";
+    document.getElementsByClassName("game-over-class")[0].style.display = "none";
+    PinkSpirit.standingclass = "move-area";
+    GreenSpirit.standingclass = "move-area";
+    BlueSpirit.standingclass = "move-area";
+    RedSpirit.standingclass = "move-area";
+    PinkSpirit.standingtablevalue = 1;
+    GreenSpirit.standingtablevalue = 1;
+    BlueSpirit.standingtablevalue = 1;
+    RedSpirit.standingtablevalue = 1;
+    PinkSpirit.posX =10;
+    PinkSpirit.posY =9;
+    GreenSpirit.posX =9;
+    GreenSpirit.posY =8;
+    BlueSpirit.posX =8;
+    BlueSpirit.posY =9;
+    RedSpirit.posX =9;
+    RedSpirit.posY =9;
+    PinkSpirit.facingdir = 0;
+    GreenSpirit.facingdir = 0;
+    BlueSpirit.facingdir = 0;
+    RedSpirit.facingdir = 2;
+    PinkSpirit.goX =0;
+    PinkSpirit.goY =-1;
+    GreenSpirit.goX =0;
+    GreenSpirit.goY =-1;
+    BlueSpirit.goX =0;
+    BlueSpirit.goY =-1;
+    RedSpirit.goX =0;
+    RedSpirit.goY =1;
+    CreateMap();
+    mapDynamic[pacman.posY][pacman.posX] = 2;
+    var index = (pacman.posY * 19) + pacman.posX;
+    var pacmanNow = document.getElementsByClassName("box")[index];
+    pacmanNow.classList.remove(pacmanNow.classList.item([pacmanNow.classList.length-1]));
+    pacmanNow.classList.add("pacman_class");
+    window.NewGameValue = setInterval(move,240);
+    window.NewGameValueSpirits = setInterval(moveSpirits,speedSpirits);
+}

@@ -1,0 +1,49 @@
+.game-over-class
+{
+    width: 30vw;
+    height: 30vh;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: blue;
+    z-index: 120;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+.game-over-class h1
+{
+    padding-bottom: 15px;
+    color:yellow;
+    font-size: 30px;
+}
+.game-over-class p
+{
+    font-family: 'Lato', sans-serif;
+    padding: 15px;
+}
+.game-over-class button
+{
+    font-size:20px;
+    padding:10px;
+    background-color: blue;
+    border:black solid 2px;
+}
+.game-over-class button:hover
+{
+    font-size:20px;
+    padding:10px;
+    background-color: rgb(0, 0, 200);
+    border:black solid 2px;
+}
+.game-over-class button:active
+{
+    font-size:20px;
+    padding:10px;
+    background-color: rgb(0, 47, 255);
+    border:black solid 2px;
+}

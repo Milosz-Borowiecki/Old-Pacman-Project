@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_general.css">
+    <link rel="stylesheet" href="styles_map_generator.css">
+    <link rel="stylesheet" href="styles_welcome_screen.css">
+    <link rel="stylesheet" href="character.css">
+    <link rel="stylesheet" href="styles_spirits.css">
+    <link rel="stylesheet" href="style_game_over_screen.css">
+    <link rel="icon" href="PNG/Packman/pacman.gif">
+    <title>PacMan</title>
+</head>
+<body>
+
+    <div class="welcome-screen">
+        <h1>Witaj w <span>PacManie</span> <img src="PNG/Packman/pacman.gif"></h1>
+        <p>Jednej z najpopularniejszych gier na świecie.</p>
+        <p>Zmierz się z czterema duszkami o przeżycie oraz z innymi graczmi w walce o pierwsze miejsce w rankingu.</p>
+        <p class="show-input">W polu poniżej podaj jak się chcesz nazywać.</p>
+        <form>
+            <input type="text" name="username">
+            <div class="center-button"><input type="submit" value="PLAY" class="form-button-class" onclick="HideWelcomeScreen(); NewGame(); return false;"></div>
+        </form>
+
+    </div>
+
+    <div class="game-over-class">
+        <h1>Przegrałeś</h1>
+        <p>No trudno :(</p>
+        <p>Klikni przycisk poniżej aby zacząć od nowa.</p>
+        <button onclick="NewGame();">New Game</button>
+    </div>
+
+    <header class="header-main">
+        PACMAN
+    </header>
+
+    <div class="game-main">
+        <div class="game-area">
+            
+        </div>
+        <div class="all-recoders-div">
+            <div class="score-div">
+                
+            </div>
+            <button onclick="NewGame();" class="Button-Class">Nowa gra</button>
+        </div>
+    </div>
+
+    <footer>
+        <span>Wynik: </span><span class="score"></span><span class="score-pkt"> PKT</span>
+    </footer>
+
+    <script src="script_general.js"></script>
+    <script src="script_map_generator_look.js"></script>
+    <script src="pacman.js"></script>
+    <script src="spirits.js"></script>
+    <script src="movement.js" async></script>
+    <script src="movement_spirits.js"></script>
+    <script src="start.js"></script>
+</body>
+</html>

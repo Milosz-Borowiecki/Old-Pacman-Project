@@ -1,0 +1,64 @@
+.GreenSpirit
+{
+    background-image: url(PNG/Green/green_ghost_angry.png);
+    background-size: 90%;
+    background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.BlueSpirit
+{
+    background-image: url(PNG/Blue/blue_ghost_angry.png);
+    background-size: 90%;
+    background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.RedSpirit
+{
+    background-image: url(PNG/Red/red_ghost_angry.png);
+    background-size: 90%;
+    background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.PinkSpirit
+{
+    background-image: url(PNG/Pink/pink_ghost_angry.png);
+    background-size: 90%;
+    background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.GreenSpiritAfraid
+{
+    background-image: url(PNG/Green/green_ghost_scared.png);
+    background-size: 90%;
+    background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.BlueSpiritAfraid
+{
+    background-image: url(PNG/Blue/blue_ghost_sad.png);
+    background-size: 90%;
+    background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.RedSpiritAfraid
+{
+    background-image: url(PNG/Red/red_ghost_sad.png);
+    background-size: 90%;
+    background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.PinkSpiritAfraid
+{
+    background-image: url(PNG/Pink/pink_ghost_sad.png);
+    background-size: 90%;
+    background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+}
